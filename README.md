@@ -32,20 +32,20 @@ Config.PollInterval = 120
 -- Taser weapons
 Config.TaserWeapons = { 'WEAPON_STUNGUN', 'WEAPON_STUNGUN_MP' }
 
--- Set true if your �A must match texture� exactly
+-- Set true if your A must match texture exactly
 Config.RequireTextureMatch = false
 
 -- A ? B swaps (must include gender = "male" or "female")
 Config.List = {
-  -- Accessories (belts/holsters) � component 7
+  -- Accessories (belts/holsters)  component 7
   { component = 7, holstered = 78, drawn = 80, gender = "male"   },
   { component = 7, holstered = 78, drawn = 80, gender = "female" },
 
-  -- Tops (shirts/jackets) � component 11
+  -- Tops (shirts/jackets)  component 11
   { component = 11, holstered = 19, drawn = 20, gender = "male"   },
   { component = 11, holstered = 21, drawn = 22, gender = "female" },
 
-  -- Optional example (prop swap; never cleared�just style A?B)
+  -- Optional example (prop swap; never cleared just style A to B)
   -- { prop = 0, holstered = 12, drawn = 14, gender = "male"   },
   -- { prop = 0, holstered = 12, drawn = 14, gender = "female" },
 }
@@ -68,7 +68,7 @@ How it works (quick):
 
 These freemode slots are engine constants and current as of 2025.
 
-Components (0�11)
+Components (0 - 11)
 
 * 0 Face
 * 1 Mask
