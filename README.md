@@ -35,7 +35,7 @@ Config.TaserWeapons = { 'WEAPON_STUNGUN', 'WEAPON_STUNGUN_MP' }
 -- Set true if your A must match texture exactly
 Config.RequireTextureMatch = false
 
--- A ? B swaps (must include gender = "male" or "female")
+-- A to B swaps (must include gender = "male" or "female")
 Config.List = {
   -- Accessories (belts/holsters)  component 7
   { component = 7, holstered = 78, drawn = 80, gender = "male"   },
