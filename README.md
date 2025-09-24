@@ -4,9 +4,9 @@ Simple, realisitc and minimal taser drawing script with realistic sound effects!
 
 ## Features
 
-* Exact A ? B clothing swap per slot )
+* Exact A to B clothing swap per slot )
 * Strict gender rules: every entry must specify male or female
-* Supports components (0�11) and props (0, 1, 2, 6, 7)
+* Supports components (0 - 11) and props (0, 1, 2, 6, 7)
 * Safe restore on resource stop or ped model change
 * realisitc sound effects
 
